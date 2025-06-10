@@ -55,23 +55,39 @@ Welcome to **CourseHub**, a full-stack web application for selling and purchasin
 
 ### 1. Clone the Repository
 
-     ```bash
-     git clone https://github.com/ganesh-kurhe/Course-Selling-Application.git
-     cd Course-Selling-Application
+git clone https://github.com/ganesh-kurhe/Course-Selling-Application.git
+cd Course-Selling-Application
 
 ### 2. Install Dependencies
-  For Server:
-    ```bash
-    cd backend
-    npm install
 
-  For Client:
-   ```bash
-   cd frontend
-   npm install
+# For Server:
+cd backend
+npm install
 
+# For Client:
+cd frontend
+npm install
 
 ### 3. Environment Variables
 
+# Create a .env file inside the backend/ directory with:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+CLIENT_URL=http://localhost:3000
 
+# Create a .env file inside the frontend/ directory with:
+REACT_APP_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 
+### 4. Run the Application
+
+# Start Backend:
+cd backend
+npm start
+
+# Start Frontend:
+cd frontend
+npm start
+
+# The application should now be running 
