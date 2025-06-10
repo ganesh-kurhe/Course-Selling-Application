@@ -60,5 +60,9 @@ Welcome to **CourseHub**, a full-stack web application for selling and purchasin
      cd Course-Selling-Application
 
 ### 2. Install Dependencies
+ For Server:
+   ```bash
+   cd backend
+   npm install
 
 
