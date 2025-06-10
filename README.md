@@ -65,4 +65,10 @@ Welcome to **CourseHub**, a full-stack web application for selling and purchasin
    cd backend
    npm install
 
+ For Client:
+   ```bash
+   cd frontend
+   npm install
+
+
 
