@@ -27,7 +27,7 @@ app.use(
 
 app.use(
     cors({
-      origin: process.env.FRONTEND_URL,
+      origin: "https://course-selling-application-tau.vercel.app/",
       credentials: true,
       methods: ["GET", "POST", "PUT", "DELETE"],
       allowedHeaders: ["Content-Type", "Authorization"],
