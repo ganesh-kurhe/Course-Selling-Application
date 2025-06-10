@@ -59,4 +59,6 @@ Welcome to **CourseHub**, a full-stack web application for selling and purchasin
 git clone https://github.com/ganesh-kurhe/Course-Selling-Application.git
 cd Course-Selling-Application
 
+### 2. Install Dependencies
+
 
