@@ -55,6 +55,16 @@ Welcome to **CourseHub**, a full-stack web application for selling and purchasin
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/CourseHub.git
+git clone https://github.com/ganesh-kurhe/Course-Selling-Application
 cd Course-Selling-Application
+
+### 2. Install Dependencies
+ For Server:
+ ```bash
+ cd backend
+
+ For Client:
+ ```bash
+ cd frontend
+
 
