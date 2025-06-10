@@ -60,13 +60,15 @@ cd Course-Selling-Application
 
 ### 2. Install Dependencies
 
-# For Server:
-cd backend
-npm install
+ For Server:
+ ```bash
+ cd backend
+ npm install
 
-# For Client:
-cd frontend
-npm install
+ For Client:
+ ```bash
+ cd frontend
+ npm install
 
 ### 3. Environment Variables
 
