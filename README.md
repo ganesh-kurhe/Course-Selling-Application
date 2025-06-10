@@ -65,3 +65,8 @@ For Server:
  cd backend
  npm install
 
+For Client:
+ ```bash
+ cd frontend
+ npm install
+
